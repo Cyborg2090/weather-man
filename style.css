@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background: url(./images/beach-dawn-dusk-ocean-189349.jpg);
+   font-family: sans-serif;
+   color: rgb(15, 187, 44);
+   background-size: cover;
+   background-repeat: no-repeat;
+   opacity: 0.65;
+ 
+}
+.location, .temperature{
+  height: 15vh;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temperature{
+  flex-direction: column;
+  color:rgb(16, 36, 219);
+  
+}
+.degree-section{
+  display: flex;
+  align-items: center;
+
+}
+#icon{
+  width: 100px;
+  height: 80px;
+  display: flex;
+  margin-left: -80px;
+  margin-right: 100px;
+  font-size: bold;
+  
+}
+.temperature-description{
+  color:#148cc4;
+  font-weight: bold;
+  font-size: 800px;
+  font-size: 25px;
+  bottom: 35;
+}
+.degree-section span {
+    margin: 5px;
+    font-size: 30px;
+
+}
+.degree-section h2{
+  font-size:40px;
+}
+
+
+.name  {
+  margin-top: -100px; 
+  margin-bottom: 250px;
+  display: inline-block;
+}
+
+#WE{
+  color: #050c70;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: 'Inria Serif', serif;
+  height:10px;
+  justify-content: center;
+  
+  
+}
+.foot{
+  position: absolute;
+  background-color:transparent;
+  text-align: center;
+  width: 100%;
+  bottom: 20px;
+  left: 0; 
+
+}
+#foo{
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  color: #a5a31d;
+  padding: 15px;
+  margin: 15px;
+}
+ul.social-media-list img {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(84, 187, 15, 0.829);
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  width: 48px;
+  height: 48px;
+}
+
+ul.social-media-list li {
+  display: inline-block;
+  margin: 3px;
+}
+ul.social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px; /* eliminate space between li */
+}
+ul.social-media-list img:hover {
+  background-color: rgba(173, 184, 20, 0.966);
+}
